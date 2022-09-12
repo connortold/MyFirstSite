@@ -1,0 +1,123 @@
+<!--
+    File: index.html
+    GUI Assignment: First Web Page
+    Connor Tolderlund, UMass Lowell Computer Science, connor_tolderlund@student.uml.edu
+    Copyright (c) 2021 by Connor. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+    updated by CT on September 12 at 7:00 AM
+
+
+    This webpage highlights some of my favorite hikes in the White Mountain National Forest in NH.
+    It includes some stats fr each hike, and a picture I took on the trail.
+-->
+
+
+<!--- 
+    Color pallette generated from: https://coolors.co/
+    Black color: #08080A
+    Silver: #A7A2A9
+    Whiteish: #F4F7F5
+    Grey: #575A5E
+    Green: #222823
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My favorite hikes in the WMNF</title>
+        <link rel="stylesheet" href="css/style.css">    
+        <script src="script.js"></script>
+    </head>
+    <!-- Begin document -->
+    <body>
+        <div class="main-column">
+            <!-- Splash screen section -->
+            <h1 class="splash-section"><span class="splash-words">My Favorite Trails in the<br>White Mountain National Forest</span></h1>
+            <h1 class="name">By: Connor Tolderlund</h1>
+            <hr>
+            <!-- First hike -> Franconia Ridge -->
+            <!-- Each hike has the same logical structure -->
+            <h2 class="hike-name"><a href="https://www.alltrails.com/trail/us/new-hampshire/mount-lafayette-and-franconia-ridge-trail-loop">Mount Lafayette and Franconia Ridge Trail Loop</a></h2>
+            <table class="hike-stats">
+                <tr>
+                    <th>Distance</th>
+                    <th>Elevation Gain</th>
+                    <th>Time to Complete</th>
+                </tr>
+                <tr>
+                    <td>9.3 mi</td>
+                    <td>3,809 ft</td>
+                    <td>4h 56m</td>
+                </tr>
+            </table>
+            <!-- the div places text next to an image -->
+            <div class="side-by-side">
+                <p class="img-text">
+                    This trail is considered one of the most scenic trails in New England. 
+                    Several waterfalls and a roughly 1.5 mile ridgeline walk create some of the best scenery in the White Mountains.
+                    Additionally, the Greenleaf Appalachian Mountain Club hut is located on the descent of Old Bridle path, 
+                    where hikers can refill water and buy snacks. The Appalachian Trail intersects this trail, so depending on the time 
+                    of year, you may encounter some thru-hikers.
+                </p>
+                <img class="inline-img" src="images/waterfall_50.jpg" alt="waterfall">
+            </div>
+            <hr>
+
+            <!-- Second Hike -> Moosilauke -->
+            <h2 class="hike-name"><a href="https://www.alltrails.com/trail/us/new-hampshire/mount-moosilauke-and-south-peak-loop">Mount Moosilauke and South Peak Loop</a></h2>
+            <table class="hike-stats">
+                <tr>
+                    <th>Distance</th>
+                    <th>Elevation Gain</th>
+                    <th>Time to Complete</th>
+                </tr>
+                <tr>
+                    <td>8.2 mi</td>
+                    <td>2,506 ft</td>
+                    <td>3h 30m</td>
+                </tr>
+            </table>
+            <div class="side-by-side">
+                <img class="inline-img" src="images/moose_summmit.jpg" alt="moose">
+                <p class="img-text">
+                    This trail is a moderate hike up Mt. Moosilauke. Although the stats seem tough, the trail is not bad for the White Mountains
+                    and is suitable for beginners. The summit of Mt. Moosilauke is a bit strange for the area; the summit is covered in alpine grasses instead of rocks.
+                    These grasses are very fragile, and many signs along the way remind hikers to stay on trail. This trail also intersects the Appalachian Trail.
+                </p>
+            </div>
+            <hr>
+
+            <!-- Third Hike -> Osceola -->
+            <h2 class="hike-name"><a href="https://www.alltrails.com/trail/us/new-hampshire/mount-osceola-summit">Mount Osceola</a></h2>
+            <table class="hike-stats">
+                <tr>
+                    <th>Distance</th>
+                    <th>Elevation Gain</th>
+                    <th>Time to Complete</th>
+                </tr>
+                <tr>
+                    <td>5.6 mi</td>
+                    <td>2,040 ft</td>
+                    <td>4h 0m</td>
+                </tr>
+            </table>
+            <div class="side-by-side">
+                <p class="img-text">
+                    A moderate trail to the summit of Mount Osceola in Wateville Valley. The summit of Osceola is known for its spectacular view
+                    east/south-east. This is one of the best hikes to do for a sunrise since the trail is not that long and the view eastward is amazing.
+                </p>
+                <img class="inline-img" src="images/trail.jpg" alt="waterfall">
+            </div>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+            <hr>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+/* 
+    Main column styling ->
+    a long column with unlimited rows
+*/
+.main-column {
+    width: 85%;
+    background-color: #a7a2a9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Styling for name under the splash image
+*/
+.name {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+/*
+    Div to allow for side-by-side elements
+    within the main column
+*/
+.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+
+.img-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.inline-img {
+    width: 30vw;
+    height: auto;
+    margin: auto;
+}
+
+/*
+    Makes the splash image bigger than the text it contains 
+    so you can see the whole image. 
+*/
+.splash-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75%;
+    padding-top: 50vh;
+    padding-bottom: 30vh;
+    background-color: #a7a2a9;
+    text-align: center;
+    font-size: 4vw;
+    background-image: url("../images/wm_50.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px #08090A;
+}
+
+.splash-words {
+    color: #a7a2a9;
+    background-color: #222823;
+    padding: 5px;
+}
+
+.hike-name {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 20vh;
+}
+
+.hike-stats {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15vh;
+    font-size: 2vw;
+}
+
+/*
+    Make the links the same color regardless if they are visited
+*/
+
+a:link {
+    color: #08090A;
+}
+
+a:visited {
+    color: #08090A;
+}
+
+/*
+    Make text centered and margins auto, it makes everything look
+    better in the main container
+*/
+
+p {
+    font-size: 1.75vw;
+    padding: 3px;
+    margin: 2px;
+    text-align: justify;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    border: 3px solid #222823;
+}
